@@ -14,6 +14,7 @@ import soundfile as sf
 
 
 APP_NAME = "SoundDeck"
+APP_VERSION = "1.0.1"
 CONFIG_NAME = "sounddeck_config.json"
 
 SUPPORTED = {
@@ -78,7 +79,7 @@ def set_theme_mode(mode):
 
     if THEME_MODE == "light":
 
-        THEME_BG = "#f2f7ff"
+        THEME_BG = "#aacfff"
         THEME_PANEL = "#ffffff"
         THEME_PANEL_2 = "#f5f9ff"
         THEME_CARD = "#e8f1fc"
@@ -1069,7 +1070,7 @@ class App:
         self.output_devices = {}
         self.input_devices = {}
 
-        self.root.title(APP_NAME)
+        self.root.title(f"{APP_NAME} v{APP_VERSION}")
         self.root.geometry("1280x780")
         self.root.minsize(1040, 680)
         apply_theme(self.root, self.cfg.data.get("theme", "dark"))
