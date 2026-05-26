@@ -1,8 +1,8 @@
 # SoundDeck
 
-**SoundDeck** is a local Windows soundboard app that routes audio through **VB-Audio Virtual Cable**, making it easy to play soundboard sounds into apps like Discord, OBS, games, voice chats, and recording software.
+**SoundDeck** is an ultra-lightweight local Windows soundboard app that routes audio through **VB-Audio Virtual Cable**, making it easy to play sounds into apps like Discord, OBS, games, voice chats, and recording software.
 
-It supports local audio files, playlists, queue playback, mic passthrough, local monitoring, loop options, themes, and FFmpeg-powered decoding for common audio formats.
+It was built as a free alternative to subscription-based PC soundboard apps, with support for local audio files, playlists, queue playback, mic passthrough, local monitoring, loop options, themes, and FFmpeg-powered decoding, while keeping system resource usage low for gaming, streaming, recording, and everyday use.
 
 ---
 
