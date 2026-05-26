@@ -1,0 +1,18 @@
+{
+  "folders": [],
+  "volume": 1.0,
+  "mic_volume": 1.0,
+  "monitor_volume": 1.0,
+  "device": null,
+  "relay_device": null,
+  "monitor_device": null,
+  "mic_device": "none",
+  "playlists": {},
+  "autoplay": true,
+  "loop_song": false,
+  "loop_playlist": false,
+  "mic_passthrough": false,
+  "monitor_sound": true,
+  "monitor_mic": false,
+  "theme": "dark"
+}

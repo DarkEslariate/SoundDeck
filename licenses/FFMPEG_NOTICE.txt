@@ -1,0 +1,12 @@
+FFmpeg Notice
+
+SoundDeck release builds may include FFmpeg binaries for decoding audio files.
+
+FFmpeg is a free/open-source multimedia project.
+FFmpeg is licensed under LGPL/GPL depending on the specific build used.
+
+FFmpeg project:
+https://ffmpeg.org/
+
+FFmpeg legal/license information:
+https://ffmpeg.org/legal.html
