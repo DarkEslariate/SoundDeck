@@ -14,5 +14,16 @@
   "mic_passthrough": false,
   "monitor_sound": true,
   "monitor_mic": false,
-  "theme": "dark"
+  "theme": "dark",
+  "favorites": [],
+  "tags": {},
+  "sound_settings": {},
+  "recent": [],
+  "grid_pins": [],
+  "hotkeys": {},
+  "allow_overlap": true,
+  "normalize_audio": false,
+  "master_limiter": true,
+  "overlap_limit": 8,
+  "global_hotkeys": false
 }

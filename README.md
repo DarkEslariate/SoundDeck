@@ -129,6 +129,18 @@ https://ffmpeg.org/legal.html
 
 ---
 
+## First-Run Setup Wizard
+
+SoundDeck includes a setup wizard that checks whether VB-Audio Virtual Cable is installed.
+
+If VB-Cable is missing, the wizard can open the official VB-Audio download page and show the required install steps. VB-Cable is not bundled with this source repository or silently installed by SoundDeck.
+
+The setup wizard can also create a desktop shortcut, create a Windows startup shortcut, and launch SoundDeck after the wizard closes.
+
+VB-Cable installation requires administrator permission and usually requires a PC restart before SoundDeck can detect it.
+
+---
+
 ## VB-Audio Virtual Cable Setup
 
 SoundDeck uses VB-Audio Virtual Cable to send soundboard audio into apps as a microphone source.
@@ -394,3 +406,24 @@ FFmpeg is not owned by this project and is distributed under its own license ter
 SoundDeck is not affiliated with VB-Audio, Discord, OBS, or FFmpeg.
 
 VB-Audio Virtual Cable is required for microphone-style routing into other applications.
+
+## v1.1 Alpha Features
+
+- Modular Python package structure
+- Overlapping multi-sound playback
+- Grid Mode
+- Favorites
+- Grid pins
+- Per-sound volume
+- Per-sound loop for overlap/grid playback
+- Per-sound fade in and fade out
+- Per-sound start and end trim
+- Tags and tag-aware search
+- Recent sounds
+- Optional global hotkeys
+- Playlist import and export
+- Full config import and export
+- Optional audio normalization
+- Master limiter
+- Stop Overlaps and Stop All controls
+
